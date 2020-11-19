@@ -11,7 +11,6 @@ body {
         background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
         background-position: top -350px left -450px, right -300px bottom -550px;
         background-repeat: no-repeat;
-        
     }
 
 main {
@@ -35,6 +34,7 @@ h3 {
     background-color: #41CCD3;
     border-radius: 20px 20px 0 0;
     background-image: url(../images/bg-pattern-card.svg);
+    background-size: cover;
     }
         .rows.top > img {
             width: 45px;
@@ -106,15 +106,16 @@ h3 {
 
 .attribution {
     width: 100%;
-    background: rgb(25,162,174);
-    background: linear-gradient(90deg, rgba(25,162,174,0.5) 0%, rgba(34,149,159,0.8698111544834094) 50%, rgba(25,162,174,0.5) 100%);
     position: absolute;
     bottom: 5%;
+    background: #19a2ae;
+    background: linear-gradient(90deg, #19a2ae80 0%, #22959fde 50%, #19a2ae80 100%);
     padding: 12px;
     line-height: 1em;
     font-size: 15px;
     color: #434e7a;
     text-align: center;
+    z-index: -1;
 }
 .attribution > a {
     text-decoration: none;
